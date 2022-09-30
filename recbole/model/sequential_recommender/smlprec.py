@@ -87,7 +87,7 @@ class SMLPREC(SequentialRecommender):
     """
 
     def __init__(self, config, dataset, seq_len = 50):
-        super(MIXERN, self).__init__(config, dataset)
+        super(SMLPREC, self).__init__(config, dataset)
 
         # load parameters info
         self.n_layers = config['n_layers']
