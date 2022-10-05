@@ -228,12 +228,12 @@ class TestGeneralRecommender(unittest.TestCase):
         }
         quick_test(config_dict)
 
-    def test_NCL(self):
-        config_dict = {
-            'model': 'NCL',
-            'num_clusters': 100
-        }
-        quick_test(config_dict)
+#     def test_NCL(self):
+#         config_dict = {
+#             'model': 'NCL',
+#             'num_clusters': 100
+#         }
+#         quick_test(config_dict)
 
 
 class TestContextRecommender(unittest.TestCase):
